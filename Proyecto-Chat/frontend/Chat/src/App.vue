@@ -1,13 +1,10 @@
 <template>
-  <Chat />
+  <router-view />
 </template>
 
-<script>
-import Chat from './components/Chat.vue';
 
+<script>
 export default {
-  components: {
-      Chat,
-  },
+  name: 'App',
 };
 </script>
